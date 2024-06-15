@@ -6,4 +6,4 @@ You can also install only relevant packages, which will not conflict with existi
 
 To perform the relevant experiments, you need to first reproduce the relevant environment of UGBA (see the previous link, this is very simple), then install the relevant explainability packages, and finally copy our files to the main folder of UGBA.
 * `./run_adaptive_exp_new.py`: The program to defense UGBA attack.Use " --defense_mode='exp' " to select our defense method for experimentation.
-* `./run_distribute.py`:The program used to draw the distribution map in the paper can be used to study the impact of backdoor attacks.
+* `./run_distribute.py`:The program used to draw the distribution map in the paper can be used to study the impact of backdoor attacks and how we can find adversarial edges.
